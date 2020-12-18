@@ -6,8 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import ExtraTreesClassifier
 import joblib
 
-# from krishisathi.settings import BASE_DIR
-
 
 def train_model():
     data = pd.read_csv('final_crops_data.csv')
